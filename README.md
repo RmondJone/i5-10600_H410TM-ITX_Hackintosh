@@ -19,11 +19,14 @@ CPU|i5 10600
 * 声卡
 * 网卡：有线+无线
 * SIP关闭
+* 睡眠正常
+* CPU、温度传感器正常
 
 已知问题：
-* 无法正常睡眠
 * CPU无法变频
 * USB 3.0未驱动只能在USB2.0速率使用
+
+已知问题后续会持续修复，敬请期待！
 
 ### GitHub
 EFI地址：[https://github.com/RmondJone/i5-10600_H410TM-ITX_Hackintosh](https://github.com/RmondJone/i5-10600_H410TM-ITX_Hackintosh)
