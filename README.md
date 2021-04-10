@@ -38,3 +38,5 @@ EFI地址：[https://github.com/RmondJone/i5-10600_H410TM-ITX_Hackintosh](https:
 
 ![](https://user-images.githubusercontent.com/10555850/113952978-5d488380-9849-11eb-8548-8aa2811df63b.jpg)
 ![](https://user-images.githubusercontent.com/10555850/113952981-5f124700-9849-11eb-9d8c-7727e7809ed4.jpg)
+![](https://user-images.githubusercontent.com/10555850/114270863-394f9280-9a41-11eb-8a19-8285e5b1fd38.png)
+
