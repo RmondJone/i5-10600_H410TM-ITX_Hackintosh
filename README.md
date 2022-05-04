@@ -38,3 +38,7 @@ EFI地址：[https://github.com/RmondJone/i5-10600_H410TM-ITX_Hackintosh](https:
 ![](https://user-images.githubusercontent.com/10555850/113952981-5f124700-9849-11eb-9d8c-7727e7809ed4.jpg)
 ![](https://user-images.githubusercontent.com/10555850/114270863-394f9280-9a41-11eb-8a19-8285e5b1fd38.png)
 
+
+### Tip
+
+我做了USB定制，可能你的主板和我定制的端口不一样。 如果进不了系统删除ACPI里的SSDT-UIAC.aml、SSDT-USBX.aml，Kexts里的USBPorts.kext。然后Kexts下一个USB万能驱动，然后插到USB2.0口上进系统，然后再用HackinTool军刀工具做USB定制。
