@@ -259,6 +259,78 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CpuTscSync.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CpuTscSync</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -552,7 +624,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 igfxonln=1</string>
+				<string>keepsyms=1 debug=0x100 igfxonln=1 -v</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -599,7 +671,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02007609QXPHC1UE</string>
+			<string>C02035902J90000UE</string>
 			<key>ProcessorType</key>
 			<integer>4105</integer>
 			<key>ROM</key>
@@ -609,20 +681,20 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac20,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C80Z9PN5T</string>
+			<string>C02D9NY8046M</string>
 			<key>SystemUUID</key>
-			<string>3B62CD6C-518D-47DF-B00E-F05DF75CC5D1</string>
+			<string>EEA82882-AF1B-411F-B43B-A93DBBF3FB4D</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>02/15/2022</string>
+			<string>05/21/2022</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1731.100.130.0.0</string>
+			<string>1916.0.3.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -630,23 +702,23 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-CFF7D910A743CAAF</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>BoardSerialNumber</key>
-			<string>C02007609QXPHC1UE</string>
+			<string>C02035902J90000UE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>iMac20,1</string>
+			<string>iMac20,2</string>
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02C80Z9PN5T</string>
+			<string>C02D9NY8046M</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-CFF7D910A743CAAF</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>FirmwareFeatures</key>
 			<data>ZvCz/wgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
@@ -662,13 +734,13 @@
 			<key>SystemManufacturer</key>
 			<string></string>
 			<key>SystemProductName</key>
-			<string>iMac20,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C80Z9PN5T</string>
+			<string>C02D9NY8046M</string>
 			<key>SystemUUID</key>
-			<string>3B62CD6C-518D-47DF-B00E-F05DF75CC5D1</string>
+			<string>EEA82882-AF1B-411F-B43B-A93DBBF3FB4D</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
