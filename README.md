@@ -15,7 +15,7 @@ CPU|i5 10600
 
 环境|版本
 --|--
-OpenCore|0.7.9
+OpenCore|0.7.9（MOD版本）
 MacOS |12.3.1
 
 已驱动：
